@@ -31,7 +31,7 @@ A PyQt6-based graphical user interface for testing REST API endpoints, with a fo
 
 3. **Run the Application:**
    ```bash
-   python src/main.py
+   python api.py
    ```
 
 ## Configuration
