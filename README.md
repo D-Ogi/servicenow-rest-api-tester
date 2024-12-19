@@ -58,6 +58,22 @@ A PyQt6-based graphical user interface for testing REST API endpoints, with a fo
 6. View raw response or navigate through the JSON structure in the tree view.
 7. If applicable, visualize numeric data by switching to the "Visualization" tab.
 
+## UI Buttons overview
+
+The application provides several key buttons to streamline your workflow when interacting with REST APIs:
+
+1. **Format JSON Payload**  
+   *Purpose:* Automatically formats and re-indents the JSON payload you’ve entered into the payload editor.  
+   *When to Use:* If you have pasted raw, unformatted JSON or made manual edits, click this button to ensure the payload is consistently and neatly formatted, making it easier to read and debug.
+
+2. **Insert Template**  
+   *Purpose:* Quickly insert predefined JSON templates into the payload editor.  
+   *When to Use:* If you frequently send similar types of requests (e.g., creating incidents or updating change requests in ServiceNow), this button saves time by letting you choose from predefined templates instead of manually typing or pasting the JSON each time.
+
+3. **Send Request**  
+   *Purpose:* Execute the API request using the currently defined URL, HTTP method, headers, payload, and authentication settings.  
+   *When to Use:* Once you have finalized your request details—auth credentials, payload, headers—click this button to send the request and populate the "Raw Response," "Tree View," and optional visualization tabs with the resulting data.
+
 ## Templates
 
 Load predefined templates for common API payloads (e.g., for creating incidents or updating change requests in ServiceNow). This feature can speed up testing by inserting ready-to-use JSON structures.
