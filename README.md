@@ -12,9 +12,10 @@ A PyQt6-based graphical user interface for testing REST API endpoints, with a fo
 - **Tree View**: Visualize response payload structures in a hierarchical tree.
 - **Visualization**: Basic bar chart generation from numeric JSON responses using `matplotlib`.
 
-## Screenshots
+## Screenshot
 
-*(TBD)*
+<img width="938" alt="image" src="https://github.com/user-attachments/assets/5dfdb9af-1233-424c-bf1a-89e5a364c78a" />
+
 
 ## Installation
 
